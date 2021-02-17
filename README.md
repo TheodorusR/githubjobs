@@ -1,2 +1,2 @@
 # githubjobs
-A nice looking Github Jobs app (with Dark Mode!)
+A nice looking Github Jobs Clone (with Dark Mode!)
