@@ -37,8 +37,9 @@ function App() {
   // Check if next page exists
   useEffect(() => {
     const cancelToken = axios.CancelToken.source();
+    // Using own's cors anywhere server as a proxy
     axios
-      .get('https://jobs.github.com/positions.json', {
+      .get('https://mighty-escarpment-99596.herokuapp.com/https://jobs.github.com/positions.json', {
         cancelToken: cancelToken.token,
         params: {
           page: page+1,
