@@ -38,7 +38,7 @@ function App() {
   useEffect(() => {
     const cancelToken = axios.CancelToken.source();
     axios
-      .get('/positions.json', {
+      .get('https://jobs.github.com/positions.json', {
         cancelToken: cancelToken.token,
         params: {
           page: page+1,

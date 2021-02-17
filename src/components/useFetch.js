@@ -42,7 +42,7 @@ const useFetch = (params, page) => {
       type: ACTIONS.SEND_REQUEST
     });
     axios
-      .get('/positions.json', {
+      .get('https://jobs.github.com/positions.json', {
         cancelToken: cancelToken.token,
         params: {
           page: page,
