@@ -59,7 +59,7 @@ function App() {
       return () => {
         cancelToken.cancel();
       }
-  }, [page]);
+  }, [page, params]);
 
   return (
     <ThemeProvider>
