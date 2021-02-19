@@ -11,3 +11,5 @@ Day. Night. Doesn't matter, with a click of a button you can display the page in
 
 3. **Query it your way**  
 Don't worry about typing parameters manually. The search form and pagination will handle it for you!
+
+Libraries/techs used: React, Reactstrap, ReactMarkdown, Axios.
